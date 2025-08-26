@@ -25,6 +25,8 @@ export default function TopBar({
       <div className="w-2 h-2 border-1 border-red-300 bg-red-500 rounded-full absolute top-4 left-4 z-4"></div>
       <div className="w-3 h-3 bg-red-400 rounded-full z-0 animate-ping absolute top-[14px] left-[14px]"></div>
 
+      <div className="absolute top-2 right-4 text-[9px] bg-white px-2 py-1 font-bold text-[#000] rounded-sm">Updated Routine</div>
+
       {/* Date and Time */}
       <div className="text-sm opacity-90 flex items-center gap-2">
         <BsCalendar2Date /> {headerText}

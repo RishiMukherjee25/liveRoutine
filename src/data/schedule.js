@@ -1,8 +1,9 @@
 export const schedule = {
   Monday: [
+     { start: "09:00", end: "10:40", subject: "Economics for Engineers (Humanities-II) ", code: "HSMC-301", teacher: "BSS", room: "Lab-17", type: "class" },
      { start: "10:40", end: "12:20", subject: "Computer Organization", code: "PCC-CS302", teacher: "LS", room: "Lab-17", type: "class" },
      { start: "12:20", end: "14:50", subject: "Analog & Digital Electronics Lab", code: "ESC-391", teacher: "ECE Dept.", room: "Lab-XX", type: "lab" },
-     { start: "14:50", end: "16:30", subject: "Economics for Engineers (Humanities-II)", code: "HSMC-301", teacher: "AC", room: "6009", type: "class" },
+   //   { start: "14:50", end: "16:30", subject: "Economics for Engineers (Humanities-II)", code: "HSMC-301", teacher: "AC", room: "6009", type: "class" },
    //   { start: "13:10", end: "14:00", subject: "Break", type: "break" },
 ],
 
