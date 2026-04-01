@@ -1,40 +1,33 @@
 export const schedule = {
   Monday: [
-     { start: "09:00", end: "10:40", subject: "Economics for Engineers (Humanities-II) ", code: "HSMC-301", teacher: "BSS", room: "Lab-17", type: "class" },
-     { start: "10:40", end: "12:20", subject: "Computer Organization", code: "PCC-CS302", teacher: "LS", room: "Lab-17", type: "class" },
-     { start: "12:20", end: "14:50", subject: "Analog & Digital Electronics Lab", code: "ESC-391", teacher: "ECE Dept.", room: "Lab-XX", type: "lab" },
-   //   { start: "14:50", end: "16:30", subject: "Economics for Engineers (Humanities-II)", code: "HSMC-301", teacher: "AC", room: "6009", type: "class" },
-   //   { start: "13:10", end: "14:00", subject: "Break", type: "break" },
-],
-
-Tuesday: [
-   { start: "09:00", end: "12:20", subject: "Data Science Lab using Python", code: "PCC- DS391", teacher: "AD, UR, AS", room: "Lab-13", type: "class" },
-   { start: "12:20", end: "13:10", subject: "Data Structure & Algorithm", code: "PCC-CS301", teacher: "HB", room: "Lab-13", type: "class" },
-   { start: "13:10", end: "14:00", subject: "Break", type: "break" },
-   { start: "14:00", end: "15:40", subject: "Introduction to Data Science", code: "PCC-DS301", teacher: "AD", room: "8012", type: "class" },
-   { start: "15:40", end: "16:30", subject: "Computer Organization", code: "PCC-CS302", teacher: "LS", room: "8012", type: "class" },
-   { start: "16:30", end: "17:20", subject: "Economics for Engineers", code: "HSMC-301", teacher: "AC", room: "8012", type: "class" },
-],
-
-Wednesday: [
-   { start: "09:50", end: "11:30", subject: "Data Structure & Algorithm", code: "PCC-CS301", teacher: "HB", room: "6009", type: "class" },
-   { start: "11:30", end: "13:10", subject: "Mathematics-III (Differential Calculus)", code: "BSC-301", teacher: "KD", room: "6009", type: "class" },
-   { start: "13:10", end: "14:00", subject: "Break", type: "break" },
-   { start: "14:00", end: "17:20", subject: "Computer Organization Lab Grp-1", code: "PCC-CS392", teacher: "LS, RC, SS3", room: "6001", type: "lab", group: "G1" },
-   ],
-   
-Thursday: [
-   { start: "09:00", end: "12:20", subject: "Computer Organization Lab Grp-2", code: "PCC-CS392", teacher: "LS, SS3", room: "6001", type: "class" },
-   { start: "12:20", end: "13:10", subject: "Analog & Digital Electronics", code: "ESC-301", teacher: "ASK (ECE Dept.)", room: "6010", type: "class" },
-   { start: "13:10", end: "14:00", subject: "Break", type: "break" },
-   { start: "14:00", end: "14:50", subject: "Introduction to Data Science", code: "PCC-DS301", teacher: "AD", room: "7009", type: "class" },
-   { start: "14:50", end: "15:40", subject: "Analog & Digital Electronics", code: "ESC-301", teacher: "ASK (ECE Dept.)", room: "7009", type: "class" },
-   { start: "15:40", end: "16:30", subject: "Mathematics-III (Differential Calculus)", code: "BSC-301", teacher: "KD", room: "7009", type: "class" },
-],
-
-Friday: [
-   { start: "09:50", end: "13:10", subject: "Data Structure & Algorithms Lab Grp-1", code: "PCC-CS391", teacher: "SS2, SP", room: "Lab-13", type: "lab", group: "G1" },
-   { start: "13:10", end: "14:00", subject: "Break", type: "break" },
-   { start: "14:00", end: "17:20", subject: "Data Structure & Algorithms Lab Grp-2", code: "PCC-CS391", teacher: "SS3, SP", room: "Lab-11", type: "lab", group: "G2" },
-],
+    { start: "09:50", end: "10:40", subject: "Economics for Engineers (Humanities)", code: "", teacher: "BSS", room: "7009", type: "class" },
+    { start: "10:40", end: "12:20", subject: "Design & Analysis of Algorithms", code: "", teacher: "LS", room: "7009", type: "class" },
+    { start: "12:20", end: "13:10", subject: "Data Mining", code: "", teacher: "HB", room: "7009", type: "class" },
+    { start: "13:10", end: "14:00", subject: "Break", type: "break" },
+    { start: "14:00", end: "17:20", subject: "Data Mining Lab", code: "", teacher: "HB, SS2, BM", room: "Lab-17", type: "lab" },
+  ],
+  Tuesday: [
+    { start: "12:20", end: "13:10", subject: "Automata Theory", code: "", teacher: "PM", room: "7009", type: "class" },
+    { start: "13:10", end: "14:00", subject: "Break", type: "break" },
+    { start: "14:00", end: "17:20", subject: "DAA Lab", code: "", teacher: "LS, SS2, RD", room: "Lab-17", type: "lab" },
+  ],
+  Wednesday: [
+    { start: "10:40", end: "11:30", subject: "Biology", code: "", teacher: "BSS", room: "8012", type: "class" },
+    { start: "12:20", end: "13:10", subject: "Design & Analysis of Algorithms", code: "", teacher: "LS", room: "8012", type: "class" },
+    { start: "13:10", end: "14:00", subject: "Break", type: "break" },
+  ],
+  Thursday: [
+    { start: "09:50", end: "10:40", subject: "Automata Theory", code: "", teacher: "PM", room: "6009", type: "class" },
+    { start: "11:30", end: "13:10", subject: "PCCCS401 (DG) - Maths Dept", code: "PCCCS401", teacher: "DG", room: "6009", type: "class" },
+    { start: "13:10", end: "14:00", subject: "Break", type: "break" },
+    { start: "14:00", end: "15:40", subject: "DBMS", code: "", teacher: "SD", room: "Lab-13", type: "lab" },
+    { start: "15:40", end: "17:20", subject: "Data Mining", code: "", teacher: "HB", room: "7009", type: "class" },
+  ],
+  Friday: [
+    { start: "09:50", end: "11:30", subject: "PCCCS401 (CT) - Maths Dept", code: "PCCCS401", teacher: "CT", room: "Lab-17", type: "class" },
+    { start: "11:30", end: "12:20", subject: "Economics for Engineers (Humanities)", code: "", teacher: "BSS", room: "Lab-17", type: "class" },
+    { start: "12:20", end: "13:10", subject: "DBMS", code: "", teacher: "HB", room: "Lab-17", type: "class" },
+    { start: "13:10", end: "14:00", subject: "Break", type: "break" },
+    { start: "14:00", end: "17:20", subject: "DBMS Lab", code: "", teacher: "SD, HB, BSS", room: "Lab-13", type: "lab" },
+  ],
 };
